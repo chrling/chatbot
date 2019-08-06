@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Hashtable;
 import org.junit.Before;
 import org.junit.Test;
+import utoronto.utsc.cs.cscc01.chatbot.IBMWatsonEngine.QueryEngine;
+import utoronto.utsc.cs.cscc01.chatbot.IBMWatsonEngine.WatsonDiscovery;
 
 public class QueryEngineTest {
   private QueryEngine qe;

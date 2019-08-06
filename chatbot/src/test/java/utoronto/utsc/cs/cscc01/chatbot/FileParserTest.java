@@ -2,6 +2,7 @@ package utoronto.utsc.cs.cscc01.chatbot;
 
 import org.junit.Before;
 import org.junit.Test;
+import utoronto.utsc.cs.cscc01.chatbot.LuceneEngine.FileParser;
 
 
 import java.io.*;

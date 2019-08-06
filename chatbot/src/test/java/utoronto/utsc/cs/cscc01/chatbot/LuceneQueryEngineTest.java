@@ -8,6 +8,7 @@ import java.util.Hashtable;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import utoronto.utsc.cs.cscc01.chatbot.LuceneEngine.LuceneQueryEngine;
 
 public class LuceneQueryEngineTest {
   private LuceneQueryEngine qe;
