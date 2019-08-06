@@ -7,6 +7,7 @@ import java.sql.*;
 
 import org.junit.Before;
 import org.junit.Test;
+import utoronto.utsc.cs.cscc01.chatbot.Database.UserDatabaseAdmin;
 
 public class UserDatabaseAdminTest {
 

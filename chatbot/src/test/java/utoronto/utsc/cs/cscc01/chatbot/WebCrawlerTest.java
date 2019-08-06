@@ -4,6 +4,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.junit.Before;
 import org.junit.Test;
+import utoronto.utsc.cs.cscc01.chatbot.LuceneEngine.WebCrawler;
 
 import java.io.IOException;
 import java.util.HashMap;

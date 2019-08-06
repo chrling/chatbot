@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.junit.Before;
 import org.junit.Test;
+import utoronto.utsc.cs.cscc01.chatbot.Servlet.QueryServlet;
 
 public class QueryServletTest {
   private QueryServlet servlet;

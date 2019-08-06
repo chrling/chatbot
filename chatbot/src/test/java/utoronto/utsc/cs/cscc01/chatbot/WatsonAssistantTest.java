@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertSame;
 import org.junit.Before;
 import org.junit.Test;
+import utoronto.utsc.cs.cscc01.chatbot.IBMWatsonEngine.WatsonAssistant;
 
 public class WatsonAssistantTest {
   private WatsonAssistant assistant;

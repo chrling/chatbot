@@ -13,6 +13,7 @@ import org.apache.lucene.store.FSDirectory;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import utoronto.utsc.cs.cscc01.chatbot.LuceneEngine.Indexer;
 
 public class IndexerTest {
   private HashMap<String, HashMap<String, String>> testUrlHash;

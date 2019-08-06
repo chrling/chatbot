@@ -2,6 +2,8 @@ package utoronto.utsc.cs.cscc01.chatbot;
 
 import org.junit.Before;
 import org.junit.Test;
+import utoronto.utsc.cs.cscc01.chatbot.Database.FilesDatabaseAdmin;
+import utoronto.utsc.cs.cscc01.chatbot.Servlet.FilesServlet;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

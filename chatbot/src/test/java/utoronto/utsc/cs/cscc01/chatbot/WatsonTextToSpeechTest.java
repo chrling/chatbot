@@ -2,6 +2,7 @@ package utoronto.utsc.cs.cscc01.chatbot;
 
 import static org.junit.Assert.assertSame;
 import org.junit.Test;
+import utoronto.utsc.cs.cscc01.chatbot.IBMWatsonEngine.WatsonTextToSpeech;
 
 public class WatsonTextToSpeechTest {
 

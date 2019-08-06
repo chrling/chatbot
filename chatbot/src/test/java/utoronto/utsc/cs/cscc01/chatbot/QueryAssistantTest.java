@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.Hashtable;
 import org.junit.Before;
 import org.junit.Test;
+import utoronto.utsc.cs.cscc01.chatbot.IBMWatsonEngine.QueryAssistant;
+import utoronto.utsc.cs.cscc01.chatbot.IBMWatsonEngine.WatsonAssistant;
 
 public class QueryAssistantTest {
   private QueryAssistant qa;

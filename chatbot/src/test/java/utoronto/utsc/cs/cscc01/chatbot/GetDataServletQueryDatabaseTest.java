@@ -2,9 +2,11 @@ package utoronto.utsc.cs.cscc01.chatbot;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.stubbing.OngoingStubbing;
+import utoronto.utsc.cs.cscc01.chatbot.Database.AnswerRatingDatabaseAdmin;
+import utoronto.utsc.cs.cscc01.chatbot.Database.FeedbackDatabaseAdmin;
+import utoronto.utsc.cs.cscc01.chatbot.Database.QueryDatabaseAdmin;
+import utoronto.utsc.cs.cscc01.chatbot.Servlet.GetDataServlet;
 
-import javax.servlet.Servlet;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
