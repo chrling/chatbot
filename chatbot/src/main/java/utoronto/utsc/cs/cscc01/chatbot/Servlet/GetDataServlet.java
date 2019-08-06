@@ -39,9 +39,7 @@ public class GetDataServlet extends HttpServlet {
   public void doPost(HttpServletRequest request, HttpServletResponse response)
       throws IOException {
 
-    response.setContentType("application/json");
-    response.setCharacterEncoding("UTF-8");
-    PrintWriter writer = response.getWriter();
+
     try {
       if (request.getParameter("getQueries") != null) {
         response.setContentType("text/csv");
@@ -61,7 +59,6 @@ public class GetDataServlet extends HttpServlet {
         }
         outputStream.flush();
         outputStream.close();
-        writer.write("{\"reply\": \"queriesData.csv extracted!\"}");
 
 
       } else if (request.getParameter("getFeedback") != null) {
@@ -81,7 +78,6 @@ public class GetDataServlet extends HttpServlet {
         }
         outputStream.flush();
         outputStream.close();
-        writer.write("{\"reply\": \"feedbackData.csv extracted!\"}");
 
       } else if (request.getParameter("getAnswerRating") != null) {
         response.setContentType("text/csv");
@@ -100,7 +96,6 @@ public class GetDataServlet extends HttpServlet {
         }
         outputStream.flush();
         outputStream.close();
-        writer.write("{\"reply\": \"answerRatingData.csv extracted!\"}");
 
       }
     } catch (SQLException e) {
